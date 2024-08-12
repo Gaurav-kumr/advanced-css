@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Var in CSS</title>
+<style>
+:root {
+  --btn1: #00b7ff;
+  --btn2: #6c757d; 
+}
+
+#primaryBtn {
+  background-color: var(--btn1);
+}
+
+#secondaryBtn {
+  background-color: var(--btn2);
+}
+button{
+color:white;
+border:none;
+padding:5px 20px;
+}
+
+</style>
+</head>
+<body>
+<header>
+
+<button id="primaryBtn">Primary Button</button>
+<button id="secondaryBtn">Secondary Button</button>
+<p>Use of Var -<br> <b>Dynamic and reusable</b>: Variables allow you to define values once and reuse them throughout your stylesheet, promoting consistency and ease of maintenance.
+<br><b>Scoped to the selector</b>: Variables can be scoped to a specific selector, or defined globally using :root, making them flexible for different parts of your CSS.</p>
+
+</header>
+<main>
+
+</main>
+</body>
+</html>
